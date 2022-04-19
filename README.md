@@ -16,10 +16,10 @@ composer require anxheloac/angel_ads
 
 ## Usage
 
-To add a new sponsor component everywhere in your blade template. This is a fixed banner that will be displayed in bottom right of your site.
-<x-angelads::sponsor :sponsor="$sponsor"></x-angelads::sponsor>
+Add any angel ads using the below components.
 
 ```php
+<x-angelads::sponsor :sponsor="$sponsor"></x-angelads::sponsor>
 // Usage description here
 ```
 

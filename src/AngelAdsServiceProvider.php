@@ -15,8 +15,8 @@ class AngelAdsServiceProvider extends ServiceProvider
          * Optional methods to load your package assets
          */
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'angel_ads');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'angel_ads');
-        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'angelads');
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         if ($this->app->runningInConsole()) {
@@ -30,9 +30,9 @@ class AngelAdsServiceProvider extends ServiceProvider
             ], 'views');*/
 
             // Publishing assets.
-            /*$this->publishes([
-                __DIR__.'/../resources/assets' => public_path('vendor/angel_ads'),
-            ], 'assets');*/
+            $this->publishes([
+                __DIR__.'/../resources/assets' => public_path('vendor/angelads'),
+            ], 'assets');
 
             // Publishing the translation files.
             /*$this->publishes([

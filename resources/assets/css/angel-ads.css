@@ -1,0 +1,54 @@
+#angelFooterAds{
+    background-color: #f7f8fb;
+    bottom: 20px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 25%);
+    box-sizing: content-box;
+    width: 50%;
+    padding: 0.625em;
+    position: fixed;
+    right: 25%;
+    z-index: 100;
+}
+
+#angelFooterAds .angelads-text{
+    color: #565454;
+    display: block;
+    font-size: .75em;
+    line-height: 1.4em;
+}
+
+#angelFooterAds .angelads-poweredby{
+    color: #777;
+    font-size: .5em;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+    float: right;
+}
+
+#angelSponsorAds{
+    background-color: #f7f8fb;
+    bottom: 20px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 25%);
+    box-sizing: content-box;
+    max-width: 130px;
+    padding: 0.625em;
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+
+#angelSponsorAds .angelads-text{
+    color: #565454;
+    display: block;
+    font-size: .75em;
+    line-height: 1.4em;
+}
+
+#angelSponsorAds .angelads-poweredby{
+    color: #777;
+    font-size: .5em;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+}
